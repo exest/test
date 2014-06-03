@@ -1,0 +1,59 @@
+/*----------------------
+---Reset css---
+------------------------*/
+@import "reset.css";
+
+/*----------------------
+---Body---
+------------------------*/
+body{
+	background: #f1f1f3;
+	color: #818285;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;	
+	-webkit-font-smoothing: antialiased;
+	}
+
+/*----------------------
+---Global---
+------------------------*/
+.wrapper{width: 960px; margin: 0 auto; overflow: hidden;}
+.colWrapOne{width: 450px; float: left; overflow: hidden; padding-right: 30px; line-height: 1.5;}
+.colWrapTwo{width: 480px; overflow: hidden; line-height: 1.5;}
+.title{
+	display: block;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	text-transform: uppercase; 
+	color: #231f20; 
+	font-weight: normal; 
+	border-bottom: 1px dotted #231f20
+	}
+/*----------------------
+---Header---
+------------------------*/
+header{margin:15px 0 75px 0; overflow: hidden;}
+header > .logo{float: left;}
+header > .logo > h1{font-weight: normal; font-size: 36px; color: #404041;}	
+header > nav > ul{text-align: right;}
+header > nav > ul > li{display: inline-block; margin:15px 15px 0 15px; border-left: 1px dotted #c8c9cc;}
+header > nav > ul > li:first-child{border-left: none;}
+header > nav > ul > li > a{
+	display: block;
+	padding-left:20px; 	
+	font-size: 24px; 
+	color: #bcbdc0; 
+	text-decoration: none;
+	}
+header > nav > ul > li > a:hover{
+	color: #404041;
+    -webkit-transition: color 500ms;
+    -moz-transition: color 500ms ;
+    -o-transition: color 500ms;
+    -ms-transition: color 500ms;
+    transition: color 500ms;
+	}	
+
+/*----------------------
+---Content---
+------------------------*/	
